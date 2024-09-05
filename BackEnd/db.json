@@ -1,0 +1,61 @@
+{
+  "employees": [
+    {
+      "id": "EMP_KaYVb",
+      "empId": "EMP_KaYVb",
+      "nic": "12345V",
+      "firstName": "Raju",
+      "lastName": "Bai",
+      "dob": "2024-09-02",
+      "doj": "2024-09-01"
+    },
+    {
+      "id": "EMP_E1zxY",
+      "empId": "EMP_E1zxY",
+      "nic": "2004061570067",
+      "firstName": "anu",
+      "lastName": "Anushiyan",
+      "dob": "2004-06-15",
+      "doj": "2025-02-01"
+    }
+  ],
+  "users": [
+    {
+      "id": "EMP_KaYVb",
+      "empId": "EMP_KaYVb",
+      "username": "EMP_KaYVb",
+      "password": "pwd123",
+      "role": "Employee"
+    },
+    {
+      "id": "EMP_E1zxY",
+      "empId": "EMP_E1zxY",
+      "username": "EMP_E1zxY",
+      "password": "pwd123",
+      "role": "Employee"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "1",
+      "employeeId": "EMP_KaYVb",
+      "reason": "sick",
+      "dateFrom": "2024-09-12",
+      "numOfDays": 2
+    },
+    {
+      "id": "2",
+      "employeeId": "EMP_KaYVb",
+      "reason": "pickic",
+      "dateFrom": "2024-09-12",
+      "numOfDays": 4
+    },
+    {
+      "id": "3",
+      "employeeId": null,
+      "reason": "pickic",
+      "dateFrom": "2024-09-12",
+      "numOfDays": 4
+    }
+  ]
+}
